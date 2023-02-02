@@ -865,7 +865,7 @@ async function buttonLogic() {
         currentSupply.innerHTML = supply;
 
         const transData = {
-          gasLimit: 100000 + 50000 * mintAmnt,
+          gasLimit: 200000 + (10000 * mintAmnt),
           from: account,
           value: cost * mintAmnt,
         };
